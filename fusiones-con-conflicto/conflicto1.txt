@@ -1,1 +1,1 @@
-Este es el contenido original.
+Este es el cambio desde la rama conflicto4.
