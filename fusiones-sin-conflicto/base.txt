@@ -1,1 +1,2 @@
 Archivo base para fusiones sin conflicto
+1
