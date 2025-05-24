@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario de Validacion</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form id="myForm">
+            <h2>Formulario de Validacion</h2>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre"><br><br>
+            
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" id="apellido" placeholder="Ingrese su apellido"><br><br>
+            
+            <label for="edad">Edad:</label><br>
+            <input type="number" id="edad" placeholder="Ingrese un número"><br><br>
+            
+            <label for="altura">Altura (cm):</label><br>
+            <input type="number" id="altura" placeholder="Ingrese un número"><br><br>
+            
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" placeholder="correo@ejemplo.com"><br><br>
+            
+            <button type="button" onclick="validarFormulario()">Enviar</button>
+
+            <p id="mensaje"></p>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
