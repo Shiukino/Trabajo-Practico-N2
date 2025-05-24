@@ -1,1 +1,2 @@
 Este es el cambio desde la rama conflicto1.
+Este es el cambio desde la rama conflicto2.
